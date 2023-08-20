@@ -1,0 +1,97 @@
+header {
+  height: 60px; /* Высота шапки */
+  background-color: #04145C; /* Цвет фона  */
+  display: flex; /* Включаем гибкость блока */
+}
+ul {
+  list-style: none; /* Убираем маркеры в списке */
+  display: flex; /* Включаем гибкость блока */
+  justify-content: start; /* Выравниваем по левому краю ссылки */
+}
+
+li a {
+  color: white; /* Цвет текста */
+  padding: 22px; /* Создаем поля вокруг ссылок по 22 пикселя */
+  font-size: 20px; /* Размер шрифта */
+  text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+li a:hover {
+  background-color: #3C90B8; /* Цвет фона при наведении на кнопку */
+}
+
+
+
+body {
+    background-color: #0099CC;
+    color: rgb(0, 0, 0);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .cart {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cart-header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item {
+    margin-bottom: 15px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+  }
+  
+  .item-price {
+    color: #737174;
+    font-weight: bold;
+  }
+  
+  .item-delete {
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    display:block;
+    width:100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 20px auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;   
+  }
+.item-delete {
+    background-color: rgb( 43, 153, 91 );
+    border: 1px solid rgb( 33, 126, 74 );
+}
+            
+.item-delete:hover {
+    background-color: rgb( 75, 183, 141 );
+}
+  
+  .total-price {
+    font-size: 24px;
+    text-align: right;
+    margin-top: 20px;
+  }

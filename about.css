@@ -1,0 +1,41 @@
+header {
+    height: 60px; /* Высота шапки */
+    background-color: #34495e; /* Цвет фона  */
+    display: flex; /* Включаем гибкость блока */
+}
+ul {
+    list-style: none; /* Убираем маркеры в списке */
+    display: flex; /* Включаем гибкость блока */
+    justify-content: start; /* Выравниваем по левому краю ссылки */
+}
+  
+li a {
+    color: white; /* Цвет текста */
+    padding: 22px; /* Создаем поля вокруг ссылок по 22 пикселя */
+    font-size: 20px; /* Размер шрифта */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+  
+li a:hover {
+    background-color: #413e40; /* Цвет фона при наведении на кнопку */
+}
+
+
+.left {
+    float: left;
+    border: double 5px #2c3e50;
+}
+.right {
+    float: right;
+    border: double 5px #2c3e50;
+}
+.text {
+    height: 300px;
+    margin: 5%;
+    padding: 30px;
+    text-align: center;
+}
+
+.text:nth-of-type(even) { /* Каждый четный элемент имеет фоновый цвет #ecf0f1 */
+    background-color: #ecf0f1;
+}

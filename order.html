@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>заказ</title>
+</head>
+<body>
+    <form action='/order' method='post'>
+        <ul class="form">
+       
+        <li><input type = "text" name = "name" placeholder = "Ваше имя"></li>
+        <li><input type = "text"  name = "fname" placeholder = "Ваша фамилия"></li>
+        <li><input type = "text" name = "adress" placeholder = "Адресс доставки"></li>
+        <li><input type = "number"  name = "phone_number" placeholder = "Ваш номер"></li>
+        <li><input type = "email"  name = "email" placeholder = "Ваша почта"></li>
+        <li><input type = "datetime-local" name = "date" placeholder = "Дата доставки"></li>
+            <li>
+                <select name="delivery_type">
+                    <option value="Доставка на дом">Доставка на дом</option>
+                    <option value="Пункт самовывоза">Пункт самовывоза</option>
+                </select>
+            </li>
+            <li>
+                <button type="submit">Нажми на меня!</button>
+            </li>
+        </ul>
+    </form> 
+</body>
+</html>
+
+
+
+<link rel="stylesheet" href="order.css">
+
+
+
+<form action='/order' method='post'>
+    <ul class="form">
+   
+    <li><input type = "text" name = "name" placeholder = "Ваше имя"></li>
+    <li><input type = "text"  name = "fname" placeholder = "Ваша фамилия"></li>
+    <li><input type = "text" name = "adress" placeholder = "Адресс доставки"></li>
+    <li><input type = "number"  name = "phone_number" placeholder = "Ваш номер"></li>
+    <li><input type = "email"  name = "email" placeholder = "Ваша почта"></li>
+    <li><input type = "datetime-local" name = "date" placeholder = "Дата доставки"></li>
+        <li>
+            <select name="delivery_type">
+                <option value="Доставка на дом">Доставка на дом</option>
+                <option value="Пункт самовывоза">Пункт самовывоза</option>
+            </select>
+        </li>
+        <li>
+            <button type="submit">Нажми на меня!</button>
+        </li>
+    </ul>
+</form>
